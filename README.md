@@ -11,6 +11,7 @@ Deployed Link: https://calculator-mashym.herokuapp.com/  </br>
 * You can also use backspace for erasing a single character.  </br>
 * Works well on mobile devices.  </br>
 * You can write x or * both will work for multiplication operation.  </br>
+* You can use = or Enter key on keyboard for evaluating expression on screen.
 
 
 ## Screenshot: </br>
