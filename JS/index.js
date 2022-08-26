@@ -99,6 +99,10 @@ document.addEventListener('keydown',(e)=>{
         screen.value=screenValue.substring(0,screen.value.length*1 -1);
         screenValue=screen.value;
     }
+    else if(e.key=="CapsLock"){
+        pass
+
+    }
     else{
         alert("Invalid input!!");
     }
