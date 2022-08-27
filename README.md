@@ -17,4 +17,4 @@ Deployed Link: https://calculator-mashym.herokuapp.com/  </br>
 ## Screenshot: </br>
 ![1](https://user-images.githubusercontent.com/87118384/186934423-1a77bf9c-bcf8-4540-858a-8646a8c666e1.PNG)
 
-## hello
+

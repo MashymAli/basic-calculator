@@ -17,8 +17,14 @@ for (item of buttons) {
             screen.value = screenValue;
         }
         else if (buttonText == '=') {
-            screen.value = eval(screenValue);
-            screenValue = screen.value; 
+            try {
+                screen.value = eval(screenValue);  
+                screenValue = screen.value;     
+            } catch (error) {
+                screen.value="Error";
+                screenValue="Error";
+            }
+
         }
         else {
             screenValue += buttonText;
@@ -92,8 +98,14 @@ document.addEventListener('keydown',(e)=>{
         screen.value = screenValue;
     }
     else if(e.key=='=' || e.key=="Enter"){
-        screen.value = eval(screenValue);  
-        screenValue = screen.value;     
+        try {
+            screen.value = eval(screenValue);  
+            screenValue = screen.value;     
+        } catch (error) {
+            screen.value="Error";
+            screenValue="Error";
+        }
+
     }
     else if(e.key=="Backspace"){
         screen.value=screenValue.substring(0,screen.value.length*1 -1);
