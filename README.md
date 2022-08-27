@@ -1,6 +1,6 @@
 # basic-calculator
 Simple calculator with HTML CSS and Javascript.  </br>  
-Deployed Link: https://calculator-mashym.herokuapp.com/  </br>
+Deployed Link: https://calculator-mashym.netlify.app/ </br>
 
 ## Features:
 * Keyboard support.  </br>
