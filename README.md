@@ -7,7 +7,6 @@ Deployed Link: https://calculator-mashym.netlify.app/ </br>
 ## Features:
 * Keyboard support.  </br>
 * Performs basic arithmetic functions (add+ subtract- multiply* and divison/).  </br>
-* Shows alert for invalid inputs (alphabets and other keys).  </br>
 * You don't have to click on calculator screen to start working just open the website and do your calculations.  </br>
 * You can clear the calculator screen by pressing c or C.  </br>
 * You can also use backspace for erasing a single character.  </br>
