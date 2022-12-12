@@ -51,21 +51,18 @@ button{
 }
 
 
-#footer {
-    position:fixed;
-    left:0rem;
-    bottom:0rem;
-    height:4rem;
-    width:100%;
-    background:orange;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+footer p{
     text-align: center;
- }
+    font-size: 1.5rem;
+}
 
- #fcontent{
-    padding-top: 1rem;
- }
-
- h1 a{
+footer a{
     color: black;
- }
+}
